@@ -19,7 +19,7 @@ Before setting up the project, ensure that you have the following software insta
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/charlesmarnielimpo/patient-registration-system.git
 ```
 
 Navigate into the project folder:
