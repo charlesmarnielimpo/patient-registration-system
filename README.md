@@ -58,7 +58,7 @@ This step will generate a new application key and update the .env file automatic
 
 ## Step 4: Set Up the Database
 
-Make sure you have a database set up (e.g., MySQL, PostgreSQL, SQLite). In your `.env` file, configure the database connection details according to your environment:
+Make sure you have a database (MySQL) set up. In your `.env` file, configure the database connection details according to your environment:
 
 ```bash
 DB_CONNECTION=mysql
@@ -90,11 +90,19 @@ This will install all required JavaScript dependencies as specified in the `pack
 After installing the Node.js dependencies, you'll need to compile the front-end assets. Run the following command to build the assets:
 
 ```bash
+npm run build
+```
+
+## Step 7: Serve the Application
+
+You can now serve the application locally using Apache.
+
+```bash
 npm run dev
 ```
 
 This will compile and bundle the CSS, JavaScript, and other assets required for your application.
 
-## Step 7: Access the Application
+## Step 8: Access the Application
 
 Open your browser and access the application.
